@@ -3,8 +3,8 @@ Theme Name: Spacious
 Theme URI: http://themegrill.com/themes/spacious
 Author: ThemeGrill
 Author URI: http://themegrill.com
-Description: Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 6 page templates, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/spacious/.
-Version: 1.0.4
+Description: Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 6 page templates, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/spacious/. Available Translations: Russian and Norsk(Bokmål).
+Version: 1.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
@@ -1041,50 +1041,6 @@ li.default-menu {
 	font-size: 11px;
 }
 
-/* =WIDGET FEATURED POSTS 
------------------------------------------------ */
-.widget_featured_posts {
-	padding-bottom: 30px;
-}
-.widget_featured_posts .widget-title {
-	text-align: center;
-	padding-bottom: 5px;
-	color: #444444;
-}
-.widget_featured_posts .tg-one-half {
-	padding-bottom: 20px;
-}
-.widget_featured_posts .tg-one-half .entry-title a:hover {
-	color: #0FBE7C;
-}
-.widget_featured_posts p {
-	text-align: center;
-	margin-bottom: 25px;
-}
-.widget_featured_posts .post-featured-image {
-	float: left;
-	padding-right: 4%;
-	text-align: left;
-	width: 36%;
-}
-.widget_featured_posts .post-featured-image-large {
-	text-align: center;
-	width: 100%;
-}
-
-.widget_featured_posts .tg-one-half p {
-	text-align: left;
-	margin-bottom: 15px;
-}
-.widget_featured_posts .comments, 
-.widget_featured_posts .category, 
-.widget_featured_posts .edit-link {
-	display: none;
-}
-.widget_featured_posts .tg-one-half .entry-title{
-	font-size: 22px;
-}
-
 /* =WIDGET OUR CLIENTS 
 ----------------------------------------------- */
 .widget_our_clients {
@@ -2033,6 +1989,9 @@ a#scroll-up:hover {
 		float: none;
 		width: 100%;
 		margin: 0;
+	}
+	.wide-978 #primary, .narrow-978 #primary, .wide-978 #secondary, .narrow-978 #secondary {
+		width: 100%;
 	}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
