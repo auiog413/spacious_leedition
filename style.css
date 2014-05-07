@@ -1049,6 +1049,8 @@ li.default-menu {
 .widget_our_clients .widget-title {
     text-align: center;
     padding-bottom: 5px;
+    font-size: 51px;
+    font-weight: bold;
     color: #444444;
 }
 .widget_our_clients p {
